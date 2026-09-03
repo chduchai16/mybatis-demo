@@ -1,0 +1,15 @@
+meta {
+  name: Find User By Id
+  type: http
+  seq: 1
+}
+
+get {
+  url: {{baseUrl}}/api/v1/users/:id
+  body: none
+  auth: none
+}
+
+params:path {
+  id: 1
+}
